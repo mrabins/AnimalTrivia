@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         aButton.hidden = true
         bButton.enabled = false
         cButton.enabled = false
-        aLabel.textColor = UIColor.redColor()
+        aLabel.textColor = UIColor(red: 0.98, green: 0.39, blue: 0.4, alpha: 1)
     }
     
     @IBAction func bButtonPressed(sender: UIButton) {
@@ -47,7 +47,7 @@ class ViewController: UIViewController {
         bButton.hidden = true
         aButton.enabled = false
         cButton.enabled = false
-        bLabel.textColor = UIColor.redColor()
+        bLabel.textColor = UIColor(red: 0.98, green: 0.30, blue: 0.4, alpha: 1)
     }
     
     @IBAction func cbuttonPressed(sender: UIButton) {
